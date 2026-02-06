@@ -47,12 +47,12 @@ class CurrentAccount(BankAccount):
 
 
 
-savings = SavingsAccount("Rakshitha", 5000, 5)
+savings = SavingsAccount("XYZ", 5000, 5)
 savings.deposit(1000)
 savings.add_interest()
 savings.withdraw(2000)
 savings.display_balance()
 
-current = CurrentAccount("Arjun", 3000, 2000)
+current = CurrentAccount("ABC", 3000, 2000)
 current.withdraw_with_overdraft(4500)
 current.display_balance()
