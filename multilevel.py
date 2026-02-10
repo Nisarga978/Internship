@@ -31,8 +31,7 @@ class MobilePhone(ElectronicProduct):
 
 
 
-mobile = MobilePhone("Oppo f29", 80000, "Android", "1 Year", "8GB", "256GB")
-
+mobile = MobilePhone("Oppo f29", 80000, "OPPO", "1 Year", "8GB", "256GB")
 
 mobile.display_product()
 mobile.display_electronic_product()

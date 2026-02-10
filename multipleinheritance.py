@@ -24,10 +24,9 @@ class SmartPhone(Camera, MusicPlayer):
         print("Brand:", self.brand)
 
 
-# Creating object
 phone = SmartPhone("Samsung", "108MP", "Dolby Atmos")
 
-# Displaying details
+
 phone.display_smartphone_details()
 phone.display_camera_details()
 phone.display_music_details()

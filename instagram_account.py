@@ -1,3 +1,4 @@
+
 class InstagramAccount:
  
     def __init__(self, account_name, password):
@@ -59,4 +60,3 @@ account.add_archived_reel("Old_Memories")
 account.display_archived_reels(43211234)
 print(account.get_archived_reels(43211234))
 
-account.set_password(43211234, "abc123")

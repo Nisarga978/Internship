@@ -1,3 +1,4 @@
+
 def login(decorated):
     def wrapper(user, password):
         if user == "admin" and password == "1234":
@@ -13,3 +14,6 @@ def login_page(user, password):
 
 login_page("admin", "1234")
 login_page("someone", "bad")
+
+
+
