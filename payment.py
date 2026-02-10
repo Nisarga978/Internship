@@ -1,4 +1,3 @@
-
 class Payment:
     def pay(self):
         print("Processing generic payment...")
@@ -23,4 +22,5 @@ p4 = CreditCard()
 p1.pay()
 p2.pay()
 p3.pay()
+
 
