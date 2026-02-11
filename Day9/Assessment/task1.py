@@ -5,14 +5,14 @@ class Book:
         self.price = price
 
     def __str__(self):
-        return f"{self.title} by {self.author} - ₹{self.price}"
+        return f"'{self.title}' by {self.author} costs {self.price}"
 
     def __repr__(self):
         return f"Book(title='{self.title}', author='{self.author}', price={self.price})"
 
+book1 = Book("Python Basics", "John Smith", 499)
+book2 = Book("Data Science 101", "Alice Brown", 799)
 
-b1 = Book("Python Basics", "Guido", 500)
-b2 = Book("OOP Concepts", "James", 650)
-
-print(b1)
-print([b1, b2])
+print(book1)
+print(book2)
+print([book1, book2])
